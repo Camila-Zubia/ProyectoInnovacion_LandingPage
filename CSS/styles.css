@@ -15,60 +15,125 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 30px;
+    padding: 1rem 2rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    width: 100%;
 }
 
 .logo {
     display: flex;
     align-items: center;
-    gap: 10px;
-}
-.img-logo{
-    height: 10%;
+    gap: 1rem;
 }
 
-.marca{
+.img-logo {
+    height: 4rem;
+    object-fit: contain;
+}
+
+.marca {
     color: #1A3A7D;
-    font-size: 24px;
+    font-size: 3rem;
     font-weight: bold;
+    font-style: italic;
 }
 
 .usuario-icono {
-    height: 35px;
-    width: 35px;
+    height: 5rem;
     background-color: #ddd;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #666;
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 .cartel {
     text-align: center;
-    padding: 80px 20px;
-    background-color: white;
+    background: linear-gradient(to bottom, #7FA1FF, #0056D2);
 }
 
 .cartel h1 {
     color: #1A3A7D;
-    font-size: 50px;
-    margin-bottom: 20px;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+.imagen-fondo{
+    height: 100%;
+    margin-bottom: 3rem;
+    object-fit: contain;
 }
 
 .btn-registrarse {
-    background-color: #0056D2;
+    background-color: #004ab200;
     color: white;
     border: none;
     padding: 12px 24px;
-    font-size: 18px;
+    font-size: 3rem;
     border-radius: 8px;
     cursor: pointer;
     transition: 0.3s;
+    margin-bottom: 3rem;
 }
 
 .btn-registrarse:hover {
     background-color: #0045A1;
+}
+
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.card {
+    background-color: #EFF4FF;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px solid #f0f0f0;
+}
+
+.card h3 {
+    color: #1A3A7D;
+    font-size: 20px;
+    margin-bottom: 5px;
+    line-height: 1.4;
+}
+
+.seccion-video {
+    align-items: center;
+    background-color: #F9F9FB;
+    padding: 80px 20px;
+    margin-top: 40px;
+}
+
+.seccion-video h2 {
+    color: #1A3A7D;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.video-wrapper {
+    background-color: #EFF4FF;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+video {
+    height: auto;
+    border-radius: 8px;
+    background-color: #222; 
 }
