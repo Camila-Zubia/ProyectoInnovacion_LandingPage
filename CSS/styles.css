@@ -11,7 +11,7 @@ body {
 }
 
 .barra-superior {
-    background-color: #7FA1FF;
+    background-color: #1A2135;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,15 +27,8 @@ body {
 }
 
 .img-logo {
-    height: 4rem;
+    height: 5rem;
     object-fit: contain;
-}
-
-.marca {
-    color: #1A3A7D;
-    font-size: 3rem;
-    font-weight: bold;
-    font-style: italic;
 }
 
 .usuario-icono {
@@ -51,11 +44,11 @@ body {
 
 .cartel {
     text-align: center;
-    background: linear-gradient(to bottom, #7FA1FF, #0056D2);
+    background-color: #1A2135;
 }
 
 .cartel h1 {
-    color: #1A3A7D;
+    color: #ffff;
     font-size: 6rem;
     margin-bottom: 2rem;
 }
@@ -79,7 +72,7 @@ body {
 }
 
 .btn-registrarse:hover {
-    background-color: #0045A1;
+    background-color: #0058BE;
 }
 
 
@@ -87,7 +80,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
-    max-width: 1000px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 40px 20px;
 }
@@ -95,7 +88,7 @@ body {
 .card {
     background-color: transparent;
     perspective: 1000px;
-    min-height: 15rem;
+    min-height: 17rem;
     width: 100%;
 }
 
@@ -133,7 +126,7 @@ body {
 
 .card-front h3 {
     color: #1A3A7D;
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 5px;
     line-height: 1.4;
 }
@@ -145,7 +138,7 @@ body {
 }
 
 .card-back p {
-    font-size: 1rem;
+    font-size: 2rem;
     line-height: 1.5;
 }
 
@@ -180,4 +173,9 @@ video {
 footer{
     border-top: 1px solid rgb(193, 193, 193);
     padding: 50px;
+    display: flex;
+}
+
+.img-devi{
+    width: 3rem;
 }
