@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: #fafafa;
     font-family: 'Inter', sans-serif;
     color: #333;
 }
@@ -48,7 +48,7 @@ body {
 }
 
 .cartel h1 {
-    color: #ffff;
+    color: #fafafa;
     font-size: 6rem;
     margin-bottom: 2rem;
 }
@@ -59,12 +59,25 @@ body {
     object-fit: contain;
 }
 
+.unirse h2{
+    color: #fafafa;
+    font-size: 3rem;
+}
+
+.correo{
+    color: #fafafa;
+    border-radius: 20px;
+    width: 30rem;
+    height: 3rem;
+    font-display: center;
+}
+
 .btn-registrarse {
     background-color: #004ab200;
     color: white;
     border: none;
     padding: 12px 24px;
-    font-size: 3rem;
+    font-size: 2.5rem;
     border-radius: 8px;
     cursor: pointer;
     transition: 0.3s;
@@ -133,7 +146,7 @@ body {
 
 .card-back {
     background-color: #1A3A7D;
-    color: white;
+    color: #fafafa;
     transform: rotateY(180deg);
 }
 
@@ -157,7 +170,7 @@ body {
 }
 
 .video-wrapper {
-    background-color: white;
+    background-color: #fafafa;
     padding: 20px;
     max-width: 60rem;
     margin: 0 auto;
