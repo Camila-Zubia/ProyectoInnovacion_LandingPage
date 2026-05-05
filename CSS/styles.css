@@ -45,6 +45,7 @@ body {
 .cartel {
     text-align: center;
     background-color: #1A2135;
+    padding-bottom: 5rem;
 }
 
 .cartel h1 {
@@ -62,14 +63,21 @@ body {
 .unirse h2{
     color: #fafafa;
     font-size: 3rem;
+    padding-bottom: 5rem;
+}
+
+.unirse span{
+    align-items: center;
 }
 
 .correo{
-    color: #fafafa;
+    background-color: #fafafa;
+    color: #1A2135;
     border-radius: 20px;
-    width: 30rem;
+    width: 40rem;
     height: 3rem;
-    font-display: center;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 .btn-registrarse {
@@ -131,6 +139,7 @@ body {
     justify-content: center;
     align-items: center;
     border: 1px solid #f0f0f0;
+    text-align: center;
 }
 
 .card-front {
