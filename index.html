@@ -11,26 +11,26 @@
 
 <body>
     <header class="barra-superior">
-    <div class="logo">
-        <img class="img-logo" src="recursos/Frame 16.png" alt="logo de DevSim">
-    </div>
-    
-    <nav class="nav-center" id="nav-menu">
-        <a href="#registrarse">Registrarse</a>
-        <a href="#beneficios">Beneficios</a>
-        <a href="#como-funciona">¿Cómo funciona?</a>
-        <a href="#planes">Planes</a>
-    </nav>
-    
-    <div class="header-right">
-        <div class="usuario">
-            <img src="recursos/User.png" alt="icono de usuario">
+        <div class="logo">
+            <img class="img-logo" src="recursos/Frame 16.png" alt="logo de DevSim">
         </div>
-        <button class="menu-toggle" id="mobile-menu" aria-label="Abrir menú">
-            &#9776;
-        </button>
-    </div>
-</header>
+
+        <nav class="nav-center" id="nav-menu">
+            <a href="#registrarse">Registrarse</a>
+            <a href="#beneficios">Beneficios</a>
+            <a href="#como-funciona">¿Cómo funciona?</a>
+            <a href="#planes">Planes</a>
+        </nav>
+
+        <div class="header-right">
+            <div class="usuario">
+                <img src="recursos/User.png" alt="icono de usuario">
+            </div>
+            <button class="menu-toggle" id="mobile-menu" aria-label="Abrir menú">
+                &#9776;
+            </button>
+        </div>
+    </header>
     <section class="cartel" id="registrarse">
         <h1>¡Próximamente!</h1>
         <div class="unirse">
@@ -88,35 +88,42 @@
         </div>
     </section>
     <section class="planes" id="planes">
+        <div class="section-header">
+            <h2>Nuestros Planes</h2>
+            <p>Elige el plan que mejor se adapte a tus necesidades</p>
+        </div>
+
         <div class="card-plan">
             <h2>Básico</h2>
             <h1>$0</h1><p>/mes</p>
-            <li>
-                <ul>3 escenarios bássicos</ul>
-                <ul>Acceso limitado a Devi</ul>
-            </li>
+            <ul class="lista-plan">
+                <li>3 escenarios básicos</li>
+                <li>Acceso limitado a Devi</li>
+            </ul>
             <button class="btn-plan">Plan Actual</button>
         </div>
+
         <div class="card-plan">
             <h2>Pro</h2>
             <h1>$69</h1><p>/mes</p>
-            <li>
-                <ul>Todos los escenarios</ul>
-                <ul>Acceso ilimitado a Devi</ul>
-                <ul>Feedback y sección de Logros</ul>
-                <ul>Disponible en un solo dispositivo</ul>
-            </li>
+            <ul class="lista-plan">
+                <li>Todos los escenarios</li>
+                <li>Acceso ilimitado a Devi</li>
+                <li>Feedback y sección de Logros</li>
+                <li>Disponible en un solo dispositivo</li>
+            </ul>
             <button class="btn-plan">Comenzar Prueba Gratis</button>
         </div>
+
         <div class="card-plan">
             <h2>Empresarial</h2>
             <h1>$799</h1><p>/mes</p>
-            <li>
-                <ul>Todos los escenarios</ul>
-                <ul>Acceso ilimitado a Devi</ul>
-                <ul>Feedback y sección de Logros</ul>
-                <ul>Disponible hasta en 20 dispositivos</ul>
-            </li>
+            <ul class="lista-plan">
+                <li>Todos los escenarios</li>
+                <li>Acceso ilimitado a Devi</li>
+                <li>Feedback y sección de Logros</li>
+                <li>Disponible hasta en 20 dispositivos</li>
+            </ul>
             <button class="btn-plan">Contratar Plan</button>
         </div>
     </section>
