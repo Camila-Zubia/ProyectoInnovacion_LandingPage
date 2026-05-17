@@ -11,18 +11,26 @@
 
 <body>
     <header class="barra-superior">
-        <div class="logo">
-            <img class="img-logo" src="recursos/Frame 16.png" alt="logo de DevSim">
-        </div>
-        <nav class="nav-center">
-            <a href="#registrarse">Registrarse</a>
-            <a href="#beneficios">Beneficios</a>
-            <a href="#como-funciona">¿Cómo funciona?</a>
-        </nav>
+    <div class="logo">
+        <img class="img-logo" src="recursos/Frame 16.png" alt="logo de DevSim">
+    </div>
+    
+    <nav class="nav-center" id="nav-menu">
+        <a href="#registrarse">Registrarse</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#como-funciona">¿Cómo funciona?</a>
+        <a href="#planes">Planes</a>
+    </nav>
+    
+    <div class="header-right">
         <div class="usuario">
             <img src="recursos/User.png" alt="icono de usuario">
         </div>
-    </header>
+        <button class="menu-toggle" id="mobile-menu" aria-label="Abrir menú">
+            &#9776;
+        </button>
+    </div>
+</header>
     <section class="cartel" id="registrarse">
         <h1>¡Próximamente!</h1>
         <div class="unirse">
@@ -80,11 +88,49 @@
         </div>
     </section>
     <section class="planes" id="planes">
-
+        <div class="card-plan">
+            <h2>Básico</h2>
+            <h1>$0</h1><p>/mes</p>
+            <li>
+                <ul>3 escenarios bássicos</ul>
+                <ul>Acceso limitado a Devi</ul>
+            </li>
+            <button class="btn-plan">Plan Actual</button>
+        </div>
+        <div class="card-plan">
+            <h2>Pro</h2>
+            <h1>$69</h1><p>/mes</p>
+            <li>
+                <ul>Todos los escenarios</ul>
+                <ul>Acceso ilimitado a Devi</ul>
+                <ul>Feedback y sección de Logros</ul>
+                <ul>Disponible en un solo dispositivo</ul>
+            </li>
+            <button class="btn-plan">Comenzar Prueba Gratis</button>
+        </div>
+        <div class="card-plan">
+            <h2>Empresarial</h2>
+            <h1>$799</h1><p>/mes</p>
+            <li>
+                <ul>Todos los escenarios</ul>
+                <ul>Acceso ilimitado a Devi</ul>
+                <ul>Feedback y sección de Logros</ul>
+                <ul>Disponible hasta en 20 dispositivos</ul>
+            </li>
+            <button class="btn-plan">Contratar Plan</button>
+        </div>
     </section>
     <footer>
         <h3>© DevSim 2026. Todos los derechos reservados.</h3>
     </footer>
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navMenu = document.getElementById('nav-menu');
+
+        mobileMenu.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
 </body>
 
 </html>
